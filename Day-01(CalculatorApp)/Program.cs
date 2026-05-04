@@ -1,7 +1,5 @@
 ﻿using System;
 
-class Program
-{
     static double Calculate(double n1, double n2, string op)
     {
         double result = 0;
@@ -65,4 +63,3 @@ class Program
         double result = Calculate(n1, n2, op);
         Console.WriteLine("Result: " + result);
     }
-}
